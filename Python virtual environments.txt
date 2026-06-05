@@ -1,0 +1,8 @@
+Python uses virtual environments to manage/isolate the packages used for a project.
+
+To create a virtual environment:
+.\venv\Scripts\activate
+
+To capture all the installed packages which you can use/copy to a different environment:
+pip freeze > requirements.txt
+pip install -r requirements.txt
